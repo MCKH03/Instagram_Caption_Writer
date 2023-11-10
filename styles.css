@@ -92,3 +92,24 @@ textarea {
 .text {
   margin-bottom: 2rem;
 }
+
+@media only screen and (max-width: 720px) {
+  .form {
+    width: 100%;
+  }
+
+  .input-box {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .input {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 350px) {
+  html {
+    font-size: 70%;
+  }
+}
